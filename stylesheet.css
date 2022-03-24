@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height:100%;
+}
+body{
+    background-image: url(images/background12.png);
+}
+.header{
+    width:70%;
+    background-color:ed;
+    margin: auto;
+}
+.logo{
+    padding: 15px;
+}
+.headernav li{
+    font-family: "Calibri";
+    color: gray;
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.headernav{
+    float: right;
+}
+.headerli::after{
+    content: "|";
+    padding-left: 10px;
+    color: lightgray;
+}
+.navbar{
+    height: 40px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.navbar1 {
+    margin-top: 2px;
+    height: 36px;
+    background-color: rgb(211, 211, 211);
+}
+.navbar1 li{
+    font-family: "Calibri";
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.navli{
+    border-right: 1px solid white;
+    height: 26px;
+}
+.first{
+    margin-left: 295px;
+    border-right: 1px solid white;
+    height: 26px;
+}
+.last {
+    color: lightgray;
+    margin-left: 257px;
+}
+.newscontainer{
+    width: 70%;
+    margin: auto;
+    height: 60px;
+    background-color: white;
+}
+.newscontainer li{
+    color: rgba(0, 0, 128, 0.692);
+    font-family: "Calibri";
+    list-style: none;
+    float: left;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.ncli::before{
+    content: "◦";
+    padding-right: 10px;
+}
+.bridalimg{
+    padding-top:10px;
+}
+.bridal img{
+    margin-left: 530px;
+}
+.bridal ul{
+    float: right;
+    margin-right: 37px;
+    padding-top: 5px;
+    color: rgba(0, 0, 128, 0.692);
+}
+.imgcontainer{
+    height: 466px;
+    border-top:1px solid lightgray;
+}
+.mainimgcontainer{
+    height: 466px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+.grid1{
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+.grid1 img{
+    margin: 4px;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 113%;
+    height: 450px;
+}
+.grid2{
+    margin-left: 123px;
+    margin-top: 8px;
+    width: 30%;
+    float: left;
+    background-color:rgba(0, 0, 0, 0.747);
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+}
+.grid21{
+    border: 1px solid gray;
+    margin:8px;
+    margin-right: 10px;
+    height: 430px;
+    background-color:rgba(0, 0, 0, 0.158);
+}
+.grid21 h1{
+    color: white;
+    font-family: "Arial";
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.grid21 p{
+    color: gray;
+    font-family: "Arial";
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+.grid21 li{
+    font-family: "Arial";
+    font-weight:lighter;
+    color: white;
+    padding-left: 78px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    list-style: none;
+}
+.gli{
+    color: gray;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: lightgray;
+}
+.promo{
+    height: 167px;
+    background-color: white;
+    width: 69.2%;
+    margin: auto;
+    border: 8px solid;
+}
+.promo1{
+    font-family: "Calibri";
+    border-right: 1px solid;
+    border-color: lightgray;
+    height: 167px;
+    float: left;
+    width:33%;
+    background-color: white;
+    background: url(images/promo_glass.png);
+    background-repeat: no-repeat;
+}
+.promo2{
+    font-family: "Calibri";
+    border-right: 1px solid lightgray;
+    height: 167px;
+    float: left;
+    width:33%;
+    background-color: white;
+    background: url(images/promo_plates.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.promo3{
+    font-family: "Calibri";
+    height: 167px;
+    float: left;
+    width:33.7%;
+    background-color: white;
+    background: url(images/promo_album.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.promo1 h2{
+    padding-top: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+.promo1 p{
+    margin-left: 34px;
+    color: gray;
+}
+.promo1 h4{
+    font-weight: lighter;
+    color: navy;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.promo2 h2{
+    padding-top: 10px;
+    font-weight: lighter;
+    padding-left: 33px;
+}
+.promo2 p{
+    padding-left: 34px;
+    color: gray;
+}
+.promo2 h4{
+    font-weight: lighter;
+    color: navy;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.promo3 h2{
+    padding-top: 10px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.promo3 p{
+    padding-left: 20px;
+    color: gray;
+    padding-top: 10px;
+}
+.promo3 h4{
+    font-weight: lighter;
+    color: navy;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.final{
+    width: 70%;
+    margin: auto;
+    height: 30px;
+    
+}
+.final li{
+    color: gray;
+    font-family: "Calibri";
+    padding-top: 6px;
+    padding-right: 10px;
+    float:left;
+    list-style: none;
+}
+.fli{
+    text-decoration: underline;
+}
+#fli1::after{
+    content: "|";
+    padding-left: 10px;
+}
+.signup{
+    padding-left: 590px;
+}
+.final2{
+    font-family: "Calibri";
+    color: gray;
+    width: 70%;
+    height: 25px;
+    margin: auto;
+}
+.final2 li{
+    list-style: none;
+    float:right; 
+    padding-right: 165px;
+}
+.final3{font-family: "Calibri";
+    color: gray;
+    width: 70%;
+    margin: auto;
+}
