@@ -4,102 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <div class="topnav">
         <img src="/images/logo.png" class="logo">
-        <ul class="headernav">
-            <li class="headerli">Welcome Jeffery(Sign Out)</li>
-            <li class="headerli">My Acocunt</li>
-            <li><img src="images/icon_cart.png"> 999 items - $9999.99</li>
-            <li class="headerli">Checkout</li>
+        <ul class="sub-nav">
+            <li class="nav-item">Welcome Jeffery(Sign Out)</li>
+            <li class="nav-item">My Acocunt</li>
+            <li><img src="images/icon_cart.png"> 999 items - $9999.99 <span class="nav-item">Checkout</span></li>
             <li>Customer Service</li>
         </ul>
     </div>
     <div class="navbar">
-        <ul class="navbar1">
+        <ul>
             <li class="first">Dining</li>
-            <li class="navli">Crystal</li>
-            <li class="navli">By Brand</li>
-            <li class="navli">What's New</li>
-            <li class="navli">Find a Gift</li>
-            <li class="navli">Wedding Ideas</li>
-            <li class="navli">Clearence & Special Offers</li>
+            <li class="nav-item">Crystal</li>
+            <li class="nav-item">By Brand</li>
+            <li class="nav-item">What's New</li>
+            <li class="nav-item">Find a Gift</li>
+            <li class="nav-item">Wedding Ideas</li>
+            <li class="nav-item">Clearence & Special Offers</li>
             <li class="last"><input type="text" value="Search Keyword/Item #" style="color: gray;"> <button> GO </button></li>
         </ul>
     </div>
     <div class="newscontainer">
         <ul>
             <li>Free shipping on orders over $150</li>
-            <li class="ncli">Holidays Platters</li>
-            <li class="ncli">Celebrate Thanksgiving</li>
+            <li class="nav-item">Holidays Platters</li>
+            <li class="nav-item">Celebrate Thanksgiving</li>
         </ul>
-        <div class="bridal">
-            <img src="/images/bridelRegistry.jpg" alt="" class="bridalimg"> 
-            <ul>
-                <li>Bridal Registry</li>
-            </ul>
+        <div class="registry-container">
+            <img src="/images/bridelRegistry.jpg" alt="" class="img-bridal"> 
+            <a>Bridal Registry</a>
         </div>
     </div>
-    <div class="imgcontainer">
-        <div class="mainimgcontainer">
-            <div class="grid1"><img src="images/Recipe.jpg" alt=""></div>
-            <div class="grid2">
-                <div class="grid21">
-                    <h1>Dress your table</h1>
-                    <p>Create a fabulous new look for your next event.Choose from various styles and ideas</p>
-                    <ul>
-                        <li>Contemporary</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li>Traditional</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li>Brunch</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li>Themes</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li>Buffet</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li>Wine and cheese</li>
-                        <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
-                        <li class="gli" style="color: gray;">See more Dress Your Table Ideas</li>
-                    </ul>
+    <div class="body-container">
+        <div class="cover-container">
+            <div class="mainimgcontainer">
+                <div class="left-container"><img src="images/Recipe.jpg" alt=""></div>
+                <div class="right-container">
+                    <div class="grid21">
+                        <h1>Dress your table</h1>
+                        <p>Create a fabulous new look for your next event.Choose from various styles and ideas</p>
+                        <ul>
+                            <li>Contemporary</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li>Traditional</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li>Brunch</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li>Themes</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li>Buffet</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li>Wine and cheese</li>
+                            <hr style="margin-bottom:10px;width: 70%;margin: auto;border-color:gray;">
+                            <li class="gli" style="color: gray;">See more Dress Your Table Ideas</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="promo">
-        <div class="promo1">
-            <h2>You'll love our fine stemware collection</h2>
-            <p>Duis autem vel eum iriure dolor in hendrerit vulputate</p>
-            <h4>See all stemware</h4>
-        </div>
-        <div class="promo2">
-            <h2>Home accent for the holidays</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h4>See all home accents</h4>
+        <div class="promo-container">
+            <div class="promo1">
+                <h2>You'll love our fine stemware collection</h2>
+                <p>Duis autem vel eum iriure dolor in hendrerit vulputate</p>
+                <h4>See all stemware</h4>
             </div>
-        <div class="promo3">
-            <h2>Mikasa clearence <br> sale 20% to80% off</h2>
-            <p>Ut wisi enim ad minim veniam <br>quis nostrud exerci tation</p>
-            <h4>See all clearence items</h4>
+            <div class="promo2">
+                <h2>Home accent for the holidays</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h4>See all home accents</h4>
+            </div>
+            <div class="promo3">
+                <h2>Mikasa clearence <br> sale 20% to80% off</h2>
+                <p>Ut wisi enim ad minim veniam <br>quis nostrud exerci tation</p>
+                <h4>See all clearence items</h4>
+            </div>
         </div>
     </div>
-    <div class="final">
-        <ul>
-            <li class="fli" id="fli1">About Mikasa</li>
-            <li class="fli" id="fli1">Customer Service</li>
-            <li class="fli">Privacy Policy</li>
-        </ul>
-        <li class="signup">Sign up to recive special offers and promotions from Mikasa</li>
-    </div>
-    <div class="final2">
-        <li><input type="text" name="email" value="Enter your email address" style="color: gray;"><button> SIGN UP</button></li>
-            <p>For assistance,call us at 1.866.645.2721(Mon -Fri)</p>            
-    </div>
-    <div class="final3">
-        <p>© Copyright 2008 Mikasa and Company</p>
+    <div class="footer">
+        <div class="about-compay">
+            <ul>
+                <li class="fli" id="fli1">About Mikasa</li>
+                <li class="fli" id="fli1">Customer Service</li>
+                <li class="fli">Privacy Policy</li>
+            </ul>
+            <p>For assistance,call us at 1.866.645.2721(Mon -Fri)</p>
+            <p>© Copyright 2008 Mikasa and Company</p>
+        </div>
+        <div class="assistence">
+            <p class="signup">Sign up to recive special offers and promotions from Mikasa</p>
+            <div>
+                <input type="text" name="email" value="Enter your email address" style="color: gray;"><button> SIGN UP</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
